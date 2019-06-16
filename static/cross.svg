@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 62 62"><defs>  <filter id="glow" x="-250%" y="-250%" width="500%" height="500%">
+    <feFlood result="flood" flood-color="#189993" flood-opacity="0.25"></feFlood>
+    <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
+    <feMorphology in="mask" result="dilated" operator="dilate" radius="3"></feMorphology>
+    <feGaussianBlur in="dilated" result="blurred" stdDeviation="5"></feGaussianBlur>
+    <feMerge>
+      <feMergeNode in="blurred"></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter><style>.cls-1{fill:#44d0c9;}</style></defs><title>cross</title><g style="filter:url(#glow)" id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path class="cls-1" d="M40.25,19.25H22.75V1.75a1.75,1.75,0,0,0-3.5,0v17.5H1.75a1.75,1.75,0,0,0,0,3.5h17.5v17.5a1.75,1.75,0,0,0,3.5,0V22.75h17.5a1.75,1.75,0,0,0,0-3.5Z"/></g></g></svg>

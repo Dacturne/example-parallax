@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 74.95 47.22"><defs>  <filter id="glow" x="-250%" y="-250%" width="500%" height="500%">
+    <feFlood result="flood" flood-color="#189993" flood-opacity="0.25"></feFlood>
+    <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
+    <feMorphology in="mask" result="dilated" operator="dilate" radius="3"></feMorphology>
+    <feGaussianBlur in="dilated" result="blurred" stdDeviation="5"></feGaussianBlur>
+    <feMerge>
+      <feMergeNode in="blurred"></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter><style>.cls-1{fill:#44d0c9;}</style></defs><title>shaky_path</title><g style="filter:url(#glow)" id="Layer_2" data-name="Layer 2"><g id="Layer_2-2" data-name="Layer 2"><path class="cls-1" d="M.8,27h0A1.51,1.51,0,0,1,.2,25C3.11,19.82,6,17.4,8.86,17.54A5.75,5.75,0,0,1,12.19,19a7.83,7.83,0,0,0,3,1.58c.43.11,4.31,1.08,6.7-.74,1-.78,1.28-1.69,1.71-3.5a19.81,19.81,0,0,1,3-7.14c1.6-2.4,2.65-4,4.83-4.61s3.91.28,5.53,1.17a12,12,0,0,0,5,1.77,9.62,9.62,0,0,0,7-1.7A9.14,9.14,0,0,0,52,1.09,1.5,1.5,0,0,1,53.68,0h0a1.5,1.5,0,0,1,1.21,1.9,12,12,0,0,1-4.21,6.31,12.55,12.55,0,0,1-9,2.3,14.88,14.88,0,0,1-6.19-2.13c-1.49-.82-2.25-1.2-3.25-.92S30.48,8.68,29,10.87A17,17,0,0,0,26.5,17c-.46,1.92-.89,3.73-2.81,5.2-3.45,2.63-8.35,1.51-9.3,1.26a10.77,10.77,0,0,1-4-2.09c-.76-.58-1.12-.84-1.67-.87-1,0-3,.7-5.9,5.91A1.5,1.5,0,0,1,.8,27Z"/></g></g></svg>
