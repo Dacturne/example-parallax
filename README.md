@@ -1,3 +1,3 @@
 # Personal website
 ## Currently under construction.
-![Preview](preview.jpg)
+![Preview](website_preview.gif)
